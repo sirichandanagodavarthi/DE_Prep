@@ -4,6 +4,17 @@
 
 If you have ever searched "data engineering interview prep", you know the problem: ten browser tabs open, every link either too shallow or too generic. This list is the antidote. Every entry is hand picked, current, and includes a one line note on what it is actually good for.
 
+## Related repositories
+
+This repo is the **broad list of resources**. For more focused study material, see the sibling repos:
+
+- **[data-engineering-interview-handbook](https://github.com/datadriven-io/data-engineering-interview-handbook)** for the chapter by chapter **flagship handbook**.
+- **[data-engineering-interview-questions](https://github.com/datadriven-io/data-engineering-interview-questions)** for the full **1400+ question bank**.
+- **[awesome-data-engineering-interviews](https://github.com/datadriven-io/awesome-data-engineering-interviews)** (plural) for the focused **DataDriven 75**, a hand picked subset.
+- **[system-design-for-data-engineers](https://github.com/datadriven-io/system-design-for-data-engineers)** for **120 pipeline system design case studies**.
+- **[data-engineer-interview-prep](https://github.com/datadriven-io/data-engineer-interview-prep)** for an **8 week structured practice track**.
+- **[data-engineering-cheatsheet](https://github.com/datadriven-io/data-engineering-cheatsheet)** for the **night before recall reference**.
+
 ## Contents
 
 - [Question banks and practice problems](#question-banks-and-practice-problems)
@@ -177,6 +188,40 @@ Rules:
 4. No dead links.
 
 Run `awesome-lint` on your changes before opening a PR.
+
+## Frequently asked questions
+
+### What is the best free resource for data engineering interview prep?
+
+There is no single best resource because the field is wide. For SQL, the best free resource is a question bank with a runnable sandbox (see the [SQL section](#sql)). For system design, the best free resource is *Designing Data Intensive Applications* paired with end to end pipeline case studies. For behavioral, it is the STAR method plus a written story bank. This list links to the strongest free option for each subtopic.
+
+### What books should every data engineer read?
+
+The four book shortlist: *Designing Data Intensive Applications* (Kleppmann), *The Data Warehouse Toolkit* (Kimball), *Fundamentals of Data Engineering* (Reis and Housley), and *Streaming Systems* (Akidau et al). Read them in that order. Everything else is optional.
+
+### Which blogs are worth following for data engineering interview prep?
+
+The Netflix Tech Blog, Uber Engineering, Airbnb Engineering, Stripe Engineering, and the [DataDriven blog](https://datadriven.io/blog) are the highest signal sources. Newsletters: Data Engineering Weekly, Ben Stancil's Substack, and the dbt blog. Reddit r/dataengineering is the largest open community.
+
+### Are there free SQL practice environments for data engineering interviews?
+
+Yes. The [SQL practice workbench](https://datadriven.io/sql-practice) is free and runs in your browser with the schema preloaded. LeetCode and HackerRank also have SQL tracks but their flavor is more analyst than data engineer.
+
+### Do I need to know dbt for a data engineering interview?
+
+If you are interviewing at a company that uses a modern warehouse stack (Snowflake, BigQuery, Redshift, Databricks SQL), yes. dbt is the de facto transformation tool and you should know its model and incremental patterns. If you are interviewing at a streaming heavy or pure infra company, dbt is less critical and Spark or Flink fluency matters more.
+
+### How do I know which tools to learn for my target company?
+
+Read the company's engineering blog. Their stack will be obvious from a few recent posts. Or check the [company specific guides](#company-specific-guides) section for the most common targets.
+
+### Is this list updated for 2026?
+
+Yes. Entries are reviewed quarterly. If you find a dead link or a stale recommendation, please open a PR.
+
+### What license is this list under?
+
+CC0 1.0, public domain. Copy, fork, and republish freely. No attribution required (though appreciated).
 
 ## License
 
