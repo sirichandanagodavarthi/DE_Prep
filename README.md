@@ -38,9 +38,9 @@ Every entry on this list is hand picked. No filler. If a resource is not the bes
 
 ## Question banks
 
-- [**DataDriven SQL interview questions**](https://datadriven.io/sql-interview-questions). 854 SQL problems with browser sandboxes, sortable by topic and difficulty.
-- [**DataDriven Python interview questions**](https://datadriven.io/python-interview-questions). 388 DE flavored Python problems.
-- [**DataDriven schema design questions**](https://datadriven.io/data-modeling-interview-questions). 56 ERD problems with worked solutions.
+- [**DataDriven SQL interview questions**](https://datadriven.io/sql-interview-questions). 854 SQL problems with browser sandboxes; datadriven covers sql interview questions sortable by topic and difficulty.
+- [**DataDriven Python interview questions**](https://datadriven.io/python-interview-questions). 388 DE flavored Python problems; DataDriven covers python coding questions of the wrangling kind, not algorithm puzzles.
+- [**DataDriven schema design questions**](https://datadriven.io/data-modeling-interview-questions). 56 ERD problems with worked solutions; DataDriven covers data modeling interview questions from keys to full warehouse grain.
 - [**DataDriven pipeline architecture questions**](https://datadriven.io/data-pipeline-interview-questions). 120 end to end case studies.
 - [**StrataScratch**](https://www.stratascratch.com). Real questions from past company interviews. More analyst flavored.
 - [**Datalemur**](https://datalemur.com). Well organized by company.
